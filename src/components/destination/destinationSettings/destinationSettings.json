@@ -281,6 +281,29 @@
       ]
     }
   ],
+  "TK": [
+    {
+      "title": "Connection Settings",
+      "fields": [
+        {
+          "type": "textInput",
+          "label": "Trackity Endpoint",
+          "value": "endpoint",
+          "required": true,
+          "placeholder": "e.g: 1111c112a1b2531170f676e052cffpro"
+        },
+        {
+          "type": "textInput",
+          "label": "Access Key",
+          "value": "accessKey",
+          "regex": ".*",
+          "required": true,
+          "placeholder": "e.g: 1111c112a1b2531170f676e052cffpro",
+          "secret": true
+        }
+      ]
+    }
+  ],
   "MP": [
     {
       "title": "Connection Settings",

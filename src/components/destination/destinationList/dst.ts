@@ -6,6 +6,7 @@ const destinationList = {
   ALGOLIA: require('./ALGOLIA.json'),
   AWIN: require('./AWIN.json'),
   AM: require('./AM.json'),
+  TK: require('./TK.json'),
   APPCENTER: require('./APPCENTER.json'),
   APPCUES: require('./APPCUES.json'),
   AUTOPILOT: require('./AUTOPILOT.json'),

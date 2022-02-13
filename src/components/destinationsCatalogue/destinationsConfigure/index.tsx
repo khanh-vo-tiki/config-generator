@@ -19,6 +19,7 @@ const markdown = {
   ALGOLIA: raw('./ALGOLIA.md'),
   AWIN: raw('./AWIN.md'),
   AM: raw('./AM.md'),
+  TK: raw('./TK.md'),
   APPCENTER: raw('./APPCENTER.md'),
   APPCUES: raw('./APPCUES.md'),
   AUTOPILOT: raw('./AUTOPILOT.md'),

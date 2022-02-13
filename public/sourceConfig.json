@@ -1,0 +1,50 @@
+{
+  "isHosted": true,
+  "source": {
+    "config": {},
+    "liveEventsConfig": {
+      "eventUpload": false,
+      "eventUploadTS": 1644493021868
+    },
+    "id": "24zvhr2dkuV5k4G1N2KUvk9fije",
+    "name": "rudder stack demo",
+    "writeKey": "24zvhqGuop1ENSrc1rEa2wyY7Mg",
+    "enabled": true,
+    "sourceDefinitionId": "1QGzOCoEznfENfRDG0gBuPlsdM4",
+    "createdBy": "24lt57mftOnIQSFQTiZg0c17Wfo",
+    "workspaceId": "24lt54GYEW03x67tPLOX5EmE6z3",
+    "deleted": false,
+    "createdAt": "2022-02-07T07:29:49.785Z",
+    "updatedAt": "2022-02-10T11:37:01.875Z",
+    "connections": [
+      {
+        "id": "1QGzO4fWSyq3lsyFHf4eQAMDSr9",
+        "sourceId": "24zvhr2dkuV5k4G1N2KUvk9fije",
+        "destinationId": "24zvvuLXNCzmqeQkSeQOaB5DOvI",
+        "enabled": true,
+        "deleted": false,
+        "createdAt": "2022-02-11T00:50:18.536Z",
+        "updatedAt": "2022-02-11T00:50:18.536Z"
+      },
+      {
+        "id": "123456789012345678901234567",
+        "sourceId": "24zvhr2dkuV5k4G1N2KUvk9fije",
+        "destinationId": "250haiBH9xuGo5LQH8vfWrAA0XV",
+        "enabled": true,
+        "deleted": false,
+        "createdAt": "2022-02-11T00:50:18.536Z",
+        "updatedAt": "2022-02-11T00:50:18.536Z"
+      }
+    ],
+    "destinations": [],
+    "sourceDefinition": {
+      "options": null,
+      "id": "1QGzOCoEznfENfRDG0gBuPlsdM4",
+      "name": "iOS",
+      "displayName": "iOS",
+      "category": null,
+      "createdAt": "2019-09-02T08:08:06.943Z",
+      "updatedAt": "2020-06-18T11:54:05.105Z"
+    }
+  }
+}

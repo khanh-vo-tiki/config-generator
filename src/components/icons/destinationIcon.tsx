@@ -2,6 +2,7 @@ import React from 'react';
 // config-gen-import-statement
 import { ReactComponent as GA } from '@svg/ga.svg';
 import { ReactComponent as AM } from '@svg/am.svg';
+import { ReactComponent as TK } from '@svg/autopilot.svg';
 import { ReactComponent as ACTIVE_CAMPAIGN } from '@svg/active_campaign.svg';
 import { ReactComponent as APPCUES } from '@svg/appcues.svg';
 import { ReactComponent as CLEVERTAP } from '@svg/clever_tap.svg';
@@ -117,6 +118,8 @@ const DestinationIcon = (props: any) => {
   switch (props.destination.toLowerCase()) {
     case 'am':
       return <AM width={width} height={height} />;
+    case 'tk':
+      return <TK width={width} height={height} />;
     case 'appcues':
       return <APPCUES width={width} height={height} />;
     case 'algolia':

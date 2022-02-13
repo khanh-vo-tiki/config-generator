@@ -1,6 +1,7 @@
 import React from 'react';
 
 import am from './am.png';
+import tk from './am.png';
 import android from './android.png';
 import emptyDestinations from './emptyDestination.png';
 import ga from './ga.png';
@@ -29,6 +30,8 @@ const Img = (props: any) => {
       return <img src={ga} alt="Google Analytics" className="m-auto" />;
     case 'am':
       return <img src={am} alt="Amplitude" className="m-auto" />;
+    case 'tk':
+      return <img src={tk} alt="Trackity" className="m-auto" />;
     case 'mp':
       return <img src={mp} alt="Mixpanel" className="m-auto" />;
     case 'fb':
