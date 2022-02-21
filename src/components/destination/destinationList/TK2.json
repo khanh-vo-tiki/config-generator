@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Connection Settings",
+    "fields": [
+      {
+        "type": "textInput",
+        "label": "App Name",
+        "value": "appName",
+        "required": true,
+        "placeholder": "e.g: TikiConsumerUAT"
+      },
+      {
+        "type": "textInput",
+        "label": "Endpoint",
+        "value": "endpoint",
+        "required": true,
+        "placeholder": "e.g: https://trackity.tala.xyz/v2/single"
+      },
+      {
+        "type": "textInput",
+        "label": "API Key",
+        "value": "apiKey",
+        "required": true,
+        "placeholder": "e.g: f75018a2-395b-4279-b244-2db7fb42969c",
+        "secret": true
+      }
+    ]
+  }
+]

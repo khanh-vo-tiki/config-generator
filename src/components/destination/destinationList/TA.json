@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Connection Settings",
+    "fields": [
+      {
+        "type": "textInput",
+        "label": "Screen Endpoint",
+        "value": "screenEndpoint",
+        "required": true,
+        "placeholder": "e.g: https://a.ants.vn/get"
+      },
+      {
+        "type": "textInput",
+        "label": "Event Endpoint",
+        "value": "eventEndpoint",
+        "required": true,
+        "placeholder": "e.g: https://a.ants.vn/event"
+      },
+      {
+        "type": "textInput",
+        "label": "ID Site",
+        "value": "idSite",
+        "required": true,
+        "placeholder": "e.g: 643,712,461",
+        "secret": true
+      }
+    ]
+  },
+  {
+    "title": "1. Native SDK",
+    "fields": [
+      {
+        "type": "defaultCheckbox",
+        "label": "Use device-mode to send events",
+        "value": "useNativeSDK",
+        "default": true
+      }
+    ]
+  }
+]

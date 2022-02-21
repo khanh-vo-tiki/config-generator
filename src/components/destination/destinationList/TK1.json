@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Connection Settings",
+    "fields": [
+      {
+        "type": "textInput",
+        "label": "Endpoint",
+        "value": "endpoint",
+        "required": true,
+        "placeholder": "e.g: https://trackity.tala.xyz/tracking"
+      },
+      {
+        "type": "textInput",
+        "label": "API Key",
+        "value": "apiKey",
+        "required": true,
+        "placeholder": "e.g: 2222c112a1b2531170f676e052cffpro",
+        "secret": true
+      }
+    ]
+  }
+]

@@ -281,25 +281,142 @@
       ]
     }
   ],
-  "TK": [
+  "TA": [
     {
       "title": "Connection Settings",
       "fields": [
         {
           "type": "textInput",
-          "label": "Trackity Endpoint",
-          "value": "endpoint",
+          "label": "Screen Endpoint",
+          "value": "screenEndpoint",
           "required": true,
-          "placeholder": "e.g: 1111c112a1b2531170f676e052cffpro"
+          "placeholder": "e.g: https://a.ants.vn/get"
         },
         {
           "type": "textInput",
-          "label": "Access Key",
-          "value": "accessKey",
-          "regex": ".*",
+          "label": "Event Endpoint",
+          "value": "eventEndpoint",
           "required": true,
-          "placeholder": "e.g: 1111c112a1b2531170f676e052cffpro",
+          "placeholder": "e.g: https://a.ants.vn/event"
+        },
+        {
+          "type": "textInput",
+          "label": "ID Site",
+          "value": "idSite",
+          "required": true,
+          "placeholder": "e.g: 643,712,461",
           "secret": true
+        }
+      ]
+    },  
+    {
+      "title": "1. Native SDK",
+      "fields": [
+        {
+          "type": "defaultCheckbox",
+          "label": "Use device-mode to send events",
+          "value": "useNativeSDK",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "TK1": [
+    {
+      "title": "Connection Settings",
+      "fields": [
+        {
+          "type": "textInput",
+          "label": "Endpoint",
+          "value": "endpoint",
+          "required": true,
+          "placeholder": "e.g: https://trackity.tala.xyz/tracking"
+        },
+        {
+          "type": "textInput",
+          "label": "API Key",
+          "value": "apiKey",
+          "required": true,
+          "placeholder": "e.g: 2222c112a1b2531170f676e052cffpro",
+          "secret": true
+        }
+      ]
+    }
+  ],
+  "TK2": [
+    {
+      "title": "Connection Settings",
+      "fields": [
+        {
+          "type": "textInput",
+          "label": "App Name",
+          "value": "appName",
+          "required": true,
+          "placeholder": "e.g: TikiConsumerUAT"
+        },
+        {
+          "type": "textInput",
+          "label": "Endpoint",
+          "value": "endpoint",
+          "required": true,
+          "placeholder": "e.g: https://trackity.tala.xyz/v2/single"
+        },
+        {
+          "type": "textInput",
+          "label": "API Key",
+          "value": "apiKey",
+          "required": true,
+          "placeholder": "e.g: f75018a2-395b-4279-b244-2db7fb42969c",
+          "secret": true
+        }
+      ]
+    }
+  ],
+  "TT": [
+    {
+      "title": "Connection Settings",
+      "fields": [
+        {
+          "type": "textInput",
+          "label": "Sandbox Token",
+          "value": "sandboxToken",
+          "required": true,
+          "placeholder": "e.g: e680cb23161e0826b761ec7a3879db8154980439"
+        },
+        {
+          "type": "textInput",
+          "label": "Access Token",
+          "value": "accessToken",
+          "required": true,
+          "placeholder": "e.g: 99441d165c3da4a8c152d8fbd338108ac2d94eb6",
+          "secret": true
+        },
+        {
+          "type": "textInput",
+          "label": "App Id",
+          "value": "appId",
+          "required": true,
+          "placeholder": "e.g: 7010007031113334785",
+          "secret": true
+        },
+        {
+          "type": "textInput",
+          "label": "TikTok App Id",
+          "value": "tiktokAppId",
+          "required": true,
+          "placeholder": "e.g: 7002459480277401601",
+          "secret": true
+        }
+      ]
+    },
+    {
+      "title": "1. Native SDK",
+      "fields": [
+        {
+          "type": "defaultCheckbox",
+          "label": "Use device-mode to send events",
+          "value": "useNativeSDK",
+          "default": true
         }
       ]
     }
@@ -452,7 +569,6 @@
       ]
     }
   ],
-
   "S3": [
     {
       "title": "1. Connection Settings",

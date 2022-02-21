@@ -1,50 +1,117 @@
 {
-  "isHosted": true,
   "source": {
     "config": {},
-    "liveEventsConfig": {
-      "eventUpload": false,
-      "eventUploadTS": 1644493021868
-    },
     "id": "24zvhr2dkuV5k4G1N2KUvk9fije",
     "name": "rudder stack demo",
     "writeKey": "24zvhqGuop1ENSrc1rEa2wyY7Mg",
     "enabled": true,
     "sourceDefinitionId": "1QGzOCoEznfENfRDG0gBuPlsdM4",
-    "createdBy": "24lt57mftOnIQSFQTiZg0c17Wfo",
-    "workspaceId": "24lt54GYEW03x67tPLOX5EmE6z3",
     "deleted": false,
-    "createdAt": "2022-02-07T07:29:49.785Z",
-    "updatedAt": "2022-02-10T11:37:01.875Z",
-    "connections": [
-      {
-        "id": "1QGzO4fWSyq3lsyFHf4eQAMDSr9",
-        "sourceId": "24zvhr2dkuV5k4G1N2KUvk9fije",
-        "destinationId": "24zvvuLXNCzmqeQkSeQOaB5DOvI",
-        "enabled": true,
-        "deleted": false,
-        "createdAt": "2022-02-11T00:50:18.536Z",
-        "updatedAt": "2022-02-11T00:50:18.536Z"
-      },
-      {
-        "id": "123456789012345678901234567",
-        "sourceId": "24zvhr2dkuV5k4G1N2KUvk9fije",
-        "destinationId": "250haiBH9xuGo5LQH8vfWrAA0XV",
-        "enabled": true,
-        "deleted": false,
-        "createdAt": "2022-02-11T00:50:18.536Z",
-        "updatedAt": "2022-02-11T00:50:18.536Z"
-      }
-    ],
-    "destinations": [],
+    "createdAt": "Mon Feb 21 2022 08:30:20 GMT+0700 (+07)",
+    "updatedAt": "Mon Feb 21 2022 08:30:20 GMT+0700 (+07)",
     "sourceDefinition": {
-      "options": null,
       "id": "1QGzOCoEznfENfRDG0gBuPlsdM4",
       "name": "iOS",
+      "options": null,
       "displayName": "iOS",
       "category": null,
       "createdAt": "2019-09-02T08:08:06.943Z",
       "updatedAt": "2020-06-18T11:54:05.105Z"
-    }
+    },
+    "destinations": [
+      {
+        "id": "25DtEV8X90sbW19uTJ88XEKTiew",
+        "name": "tiktok",
+        "enabled": true,
+        "config": {},
+        "destinationDefinition": {
+          "config": {
+            "destConfig": {
+              "ios": [
+                "useNativeSDK"
+              ],
+              "web": [
+                "useNativeSDK"
+              ],
+              "android": [
+                "useNativeSDK"
+              ],
+              "defaultConfig": [
+                "sandbokToken",
+                "accessToken",
+                "appId",
+                "tiktokAppId"
+              ]
+            },
+            "includeKeys": [],
+            "deviceModeOnly": true
+          },
+          "id": "TT_123456789012345678901234",
+          "name": "TT",
+          "displayName": "TikTok",
+          "createdAt": "2019-09-02T08:08:05.613Z",
+          "updatedAt": "2021-10-19T18:06:26.219Z"
+        }
+      },
+      {
+        "id": "25Dta1jOEXRsGiTEk6pPsyrwISJ",
+        "name": "Firebase Destination",
+        "enabled": true,
+        "config": {},
+        "destinationDefinition": {
+          "config": {
+            "destConfig": {
+              "ios": [
+                "useNativeSDK"
+              ],
+              "unity": [
+                "useNativeSDK"
+              ],
+              "android": [
+                "useNativeSDK"
+              ],
+              "reactnative": [
+                "useNativeSDK"
+              ],
+              "defaultConfig": []
+            },
+            "secretKeys": [],
+            "excludeKeys": [],
+            "includeKeys": [],
+            "transformAt": "processor",
+            "supportedSourceTypes": [
+              "android",
+              "ios",
+              "unity",
+              "reactnative"
+            ],
+            "saveDestinationResponse": false
+          },
+          "responseRules": null,
+          "id": "1YL4j4RpSLloVaMwKrOoXLfiryj",
+          "name": "FIREBASE",
+          "displayName": "Firebase",
+          "createdAt": "2020-02-26T09:17:52.231Z",
+          "updatedAt": "2020-10-30T09:35:27.500Z"
+        }
+      },
+      {
+        "id": "25OnTz6WkpO71SG5KnyHFc91zuB",
+        "name": "TikiAds",
+        "enabled": true,
+        "config": {},
+        "destinationDefinition": {
+          "config": {},
+          "id": "1CF721D99C264EFEBADDE326F8",
+          "name": "TA",
+          "displayName": "Tiki Ads",
+          "createdAt": "2019-09-02T08:08:05.613Z",
+          "updatedAt": "2021-10-19T18:06:26.219Z"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "version": "1.0.2"
   }
 }

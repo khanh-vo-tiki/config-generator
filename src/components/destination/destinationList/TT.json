@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Connection Settings",
+    "fields": [
+      {
+        "type": "textInput",
+        "label": "Sandbox Token",
+        "value": "sandboxToken",
+        "required": true,
+        "placeholder": "e.g: e680cb23161e0826b761ec7a3879db8154980439"
+      },
+      {
+        "type": "textInput",
+        "label": "Access Token",
+        "value": "accessToken",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "e.g: 99441d165c3da4a8c152d8fbd338108ac2d94eb6",
+        "secret": true
+      },
+      {
+        "type": "textInput",
+        "label": "App Id",
+        "value": "appId",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "e.g: 7010007031113334785",
+        "secret": true
+      },
+      {
+        "type": "textInput",
+        "label": "TikTok App Id",
+        "value": "tiktokAppId",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "e.g: 7002459480277401601",
+        "secret": true
+      }
+    ]
+  },
+  {
+    "title": "1. Native SDK",
+    "fields": [
+      {
+        "type": "defaultCheckbox",
+        "label": "Use device-mode to send events",
+        "value": "useNativeSDK",
+        "default": true
+      }
+    ]
+  }
+]

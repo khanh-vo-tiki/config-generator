@@ -1,7 +1,10 @@
 import React from 'react';
 
 import am from './am.png';
-import tk from './am.png';
+import ta from './am.png';
+import tk1 from './am.png';
+import tk2 from './am.png';
+import tt from './am.png';
 import android from './android.png';
 import emptyDestinations from './emptyDestination.png';
 import ga from './ga.png';
@@ -30,8 +33,14 @@ const Img = (props: any) => {
       return <img src={ga} alt="Google Analytics" className="m-auto" />;
     case 'am':
       return <img src={am} alt="Amplitude" className="m-auto" />;
-    case 'tk':
-      return <img src={tk} alt="Trackity" className="m-auto" />;
+    case 'ta':
+      return <img src={ta} alt="Tiki Ads" className="m-auto" />;
+    case 'tk1':
+      return <img src={tk1} alt="Trackity v1" className="m-auto" />;
+    case 'tk2':
+      return <img src={tk2} alt="Trackity v2" className="m-auto" />;
+    case 'tt':
+      return <img src={tt} alt="TikTok" className="m-auto" />;
     case 'mp':
       return <img src={mp} alt="Mixpanel" className="m-auto" />;
     case 'fb':

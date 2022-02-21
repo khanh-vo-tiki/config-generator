@@ -2,7 +2,10 @@ import React from 'react';
 // config-gen-import-statement
 import { ReactComponent as GA } from '@svg/ga.svg';
 import { ReactComponent as AM } from '@svg/am.svg';
-import { ReactComponent as TK } from '@svg/autopilot.svg';
+import { ReactComponent as TA } from '@svg/minio.svg';
+import { ReactComponent as TK1 } from '@svg/autopilot.svg';
+import { ReactComponent as TK2 } from '@svg/autopilot.svg';
+import { ReactComponent as TT } from '@svg/bugsnag.svg';
 import { ReactComponent as ACTIVE_CAMPAIGN } from '@svg/active_campaign.svg';
 import { ReactComponent as APPCUES } from '@svg/appcues.svg';
 import { ReactComponent as CLEVERTAP } from '@svg/clever_tap.svg';
@@ -118,8 +121,14 @@ const DestinationIcon = (props: any) => {
   switch (props.destination.toLowerCase()) {
     case 'am':
       return <AM width={width} height={height} />;
-    case 'tk':
-      return <TK width={width} height={height} />;
+    case 'ta':
+      return <TA width={width} height={height} />;
+    case 'tk1':
+      return <TK1 width={width} height={height} />;
+    case 'tk2':
+      return <TK2 width={width} height={height} />;
+    case 'tt':
+      return <TT width={width} height={height} />;
     case 'appcues':
       return <APPCUES width={width} height={height} />;
     case 'algolia':
